@@ -1,0 +1,6 @@
+LIBRARY   client
+
+EXPORTS
+    runclient					@4
+    SendMyMsgToMySrv	@11
+    

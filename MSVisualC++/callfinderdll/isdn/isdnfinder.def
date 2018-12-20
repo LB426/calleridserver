@@ -1,0 +1,6 @@
+LIBRARY   isdnfinder
+
+EXPORTS
+    runisdnterminalfinder		@2
+    stopisdnterminalfinder	@4
+    

@@ -1,0 +1,24 @@
+#include "windows.h"
+#include "resources.h"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+IDI_ICON1	ICON	"ICON1.ICO"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+GENERIC MENU DISCARDABLE
+BEGIN
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&Contents",                   IDM_HELPCONTENTS, HELP
+        MENUITEM SEPARATOR
+        MENUITEM "&About Generic...",           IDM_ABOUT
+    END
+END

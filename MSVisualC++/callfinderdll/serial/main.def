@@ -1,0 +1,6 @@
+LIBRARY   serialfinder
+
+EXPORTS
+    runserialterminalfinder		@2
+    stopserialterminalfinder	@4
+    
